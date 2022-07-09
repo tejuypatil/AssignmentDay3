@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4efd4996-e2d4-418c-a248-5a71478d0527" name="Changes" comment="Added Part time employee wage">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/employee/wage/EmpWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/employee/wage/EmpWage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
