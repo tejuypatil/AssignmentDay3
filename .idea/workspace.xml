@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4efd4996-e2d4-418c-a248-5a71478d0527" name="Changes" comment="Added While loop">
+    <list default="true" id="4efd4996-e2d4-418c-a248-5a71478d0527" name="Changes" comment="Checked Position">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/snakeladder/SnakeLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snakeladder/SnakeLadder.java" afterDir="false" />
     </list>
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657713856354</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Checked Position">
+      <created>1657718767264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657718767264</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,15 +142,35 @@
     <MESSAGE value="Added Part time employee wage" />
     <MESSAGE value="Added cases" />
     <MESSAGE value="Added While loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added While loop" />
+    <MESSAGE value="Checked Position" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked Position" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/snakeladder/SnakeLadder.java</url>
-          <line>32</line>
+          <line>40</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/snakeladder/SnakeLadder.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/snakeladder/SnakeLadder.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/snakeladder/SnakeLadder.java</url>
+          <line>25</line>
+          <properties class="com.snakeladder.SnakeLadder" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
