@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4efd4996-e2d4-418c-a248-5a71478d0527" name="Changes" comment="Added cases">
+    <list default="true" id="4efd4996-e2d4-418c-a248-5a71478d0527" name="Changes" comment="Added While loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/snakeladder/SnakeLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snakeladder/SnakeLadder.java" afterDir="false" />
     </list>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657711988206</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added While loop">
+      <created>1657713856354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657713856354</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +134,18 @@
     <MESSAGE value="Added files" />
     <MESSAGE value="Added Part time employee wage" />
     <MESSAGE value="Added cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added cases" />
+    <MESSAGE value="Added While loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added While loop" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/snakeladder/SnakeLadder.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
