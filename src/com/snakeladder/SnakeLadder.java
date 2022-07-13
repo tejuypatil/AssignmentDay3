@@ -24,23 +24,31 @@ public class SnakeLadder {
         System.out.println("Welcome to Snake & Ladder:\n" +
                 "            _ _ _ _ _ _\n" +
                 "~~~~====:>  _|_|_|_|_|_\n\n");
-        System.out.println("Player : at " + position + " position");
-        int dieNum = rollDie();
-        System.out.println("Got number after  player rolls the die:" + dieNum);
-        position = dieNum + position;
-        System.out.println("Check the position :" + position);
-        int option = checkOption();
+
 
         while (position < WINING_POSITION) {
+            int dieNum = rollDie();
+            int option = checkOption();
+
+            System.out.println(position+" d "+dieNum +" o "+option);
             switch (option) {
                 case SNAKE:
-                    position -= dieNum;
+                    //position -= dieNum;
+                    position = position - dieNum ;
+                    if(position<INITIAL_POSITION){
+                        position=INITIAL_POSITION;
+                    }
                     break;
                 case LADDER:
-                    position += dieNum;
+                    if(position+dieNum < WINING_POSITION)
+                    {
+                        //position+=dieNum;
+                        position = position + dieNum ;
+                    }
                     break;
                 case NO_PLAY:
                     break;
+                default:
             }
         }
     }
